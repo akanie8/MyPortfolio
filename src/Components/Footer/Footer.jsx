@@ -37,7 +37,7 @@ const Footer = ({ onSubscribe }) => {
           <p>
             I am a mobile developer from South Africa, a versatile developer and
             recent graduate from the University of Johannesburg with a degree in
-            Computer Science and Informatics & CyberSecurity.
+            Computer Science and Informatics.
           </p>
         </div>
         <div className="footer-top-right">
