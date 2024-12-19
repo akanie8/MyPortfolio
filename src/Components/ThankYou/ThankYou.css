@@ -1,0 +1,58 @@
+.thankyou-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7; /* Light gray background */
+  }
+  
+  .thankyou-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .thankyou-icon {
+    font-size: 80px;
+    color: #4CAF50; /* Green color for the checkmark */
+    margin-bottom: 20px;
+  }
+  
+  .thankyou-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .thankyou-message {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .thankyou-back-home {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .thankyou-back-home:hover {
+    background: linear-gradient(270deg, #B415FF 50.41%, #DF8908 90.25%);
+    transform: scale(1.05);
+  }
+  
