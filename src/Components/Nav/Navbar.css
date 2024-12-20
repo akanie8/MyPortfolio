@@ -1,30 +1,17 @@
-.navbar {
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 170px;
 }
-
-.nav-menu {
+.nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
     gap: 60px;
     font-size: 20px;
-    position: fixed; 
-    flex-direction: column; 
-    align-items: start;
-    top: 0;
-    gap: 30px;
-    background-color: #1F0016; 
-    width: 350px; 
-    height: 100%; 
-    z-index: 2;
-    transition: right 0.5s ease-in-out; 
-    right: -350px; 
 }
-
-.nav-connect {
+.nav-connect{ 
     padding: 20px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
@@ -32,73 +19,71 @@
     cursor: pointer;
     transition: 0.6s;
 }
-
-.nav-connect:hover {
+.nav-connect:hover{
     transform: scale(1.08);
 }
-
-.nav-menu li {
+.nav-menu li{
     display: flex;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
 }
-
-.nav-menu li img {
+.nav-menu li img{
     display: flex;
     margin: auto; 
 }
-
-.anchor-link {
+.anchor-link{
     text-decoration: none;
     color: white;
 }
-
-.navbar-logo {
+.navbar-logo{
     width: 150px;
     height: auto;
 }
-
-.nav-mob-close {
+.nav-mob-close{
+    display: none;
+}
+.nav-mob-open{
     display: none;
 }
 
-.nav-mob-open {
-    display: none;
-}
-
-/* Mobile View */
-@media(max-width:768px) {
-    .navbar {
+@media(max-width:768px){
+    .navbar{
         margin: 20px 50px;
     }
-
-    .nav-connect {
+    .nav-connect{
         display: none;
     }
-
-    .nav-mob-open {
+    .nav-mob-open{
         display: block;
         position: fixed;
         right: 20px;
     }
-
-    .nav-mob-close {
+    .nav-mob-close{
         display: block;
         position: relative;
         top: 30px;
         left: 290px;
         width: 30px;
     }
-
-    .nav-menu.open { /* Add this class to open the sidebar */
-        right: 0; /* Brings the sidebar into view */
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #1F0016;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: 350px;
     }
-
-    .nav-menu li {
+    .nav-menu li{
         font-size: 30px;
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;
+
     }
 }
