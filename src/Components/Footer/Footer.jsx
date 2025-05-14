@@ -58,7 +58,7 @@ const Footer = ({ onSubscribe }) => {
       <hr />
       <div className="footer-bottom">
         <p className="footer-bottom-left">
-          © 2024 Shaun Zitha. All rights reserved.
+          © 2025 Shaun Zitha. All rights reserved.
         </p>
         <div className="footer-bottom-right">
           <p>Terms of Services</p>
