@@ -21,7 +21,7 @@ const Hero = () => {
           </AnchorLink>
         </div>
         <div className="hero-resume">
-          <a href="/HS_ZITHA_CV_2025.pdf" download="HS_ZITHA_CV_2025.pdf">
+          <a href="/HS-ZITHA-CV.pdf" download="HS-ZITHA-CV.pdf">
             Download Resume
           </a>
         </div>
